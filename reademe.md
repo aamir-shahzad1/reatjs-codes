@@ -1,5 +1,36 @@
 
 
+//============================================================
+https://scriptverse.academy/tutorials/reactjs-pass-props-to-functional-component.html
+below is a link for online compiler of reactjs
+https://reacttraining.com/react-router/web/example/basic
+//============================================================
+best source to download books
+https://b-ok.cc/book/2885521/e24cfb
+//============================================================
+download full icon pack for website
+https://www.flaticon.com/packs/food-and-drinks-22
+//============================================================
+reactjs redux redux-thunk best tutorial
+https://codeburst.io/understanding-redux-thunk-6dbae0241817
+//============================================================
+example code that i merges to make project code with ReactjsReduxThunkMaterialUIBableWebpack with all updated depencies
+https://github.com/SiddharthaChowdhury/bp-common
+https://www.freecodecamp.org/news/how-to-use-reactjs-with-webpack-4-babel-7-and-material-design-ff754586f618/
+https://flaviocopes.com/update-npm-dependencies/
+//============================================================
+redux react source code 
+https://codesandbox.io/s/9on71rvnyo
+https://github.com/reduxjs/redux-thunk
+//============================================================
+reactjs chartjs
+https://www.createwithdata.com/react-chartjs-dashboard/
 
-usefull_links
+//===========================================================
+reactjs dashboards examples with sources code 
+https://dev.to/sm0ke/react-dashboards-open-source-apps-1c7j
+https://www.creative-tim.com/bootstrap-themes/free?page=2
+
+//===================================================
+usefull links for react bootstrap
 https://reactstrap.github.io/components/tabs/
