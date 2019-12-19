@@ -37,5 +37,5 @@ usefull links for react bootstrap
 https://reactstrap.github.io/components/tabs/
 
 //==================================================
-get react controls BEST
+useless
 https://www.syncfusion.com/sales/products/react
