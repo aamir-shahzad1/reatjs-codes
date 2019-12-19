@@ -34,3 +34,7 @@ https://www.creative-tim.com/bootstrap-themes/free?page=2
 //===================================================
 usefull links for react bootstrap
 https://reactstrap.github.io/components/tabs/
+
+//==================================================
+get react controls BEST
+https://www.syncfusion.com/sales/products/react
