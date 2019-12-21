@@ -1,19 +1,18 @@
-import React, { Component } from "react";
-import * as JQuery from "jquery";
-const $ = JQuery.default;
-var Highcharts = require("highcharts");
-require("highcharts/modules/exporting")(Highcharts);
+import React from 'react'
+import Highcharts from 'highcharts'
+
+import  { Component } from "react";
 
 const defaultOptions = {
   chart: {
     backgroundColor: null,
     borderWidth: 0,
     type: 'area',
-    margin: [2, 0, 2, 0],
+    margin: [0, 0, 0, 0],
     // width: 220,
     // height: 20,
     style: {
-      overflow: 'visible'
+      // overflow: 'visible'
     },
 
     // small optimalization, saves 1-2 ms each sparkline
@@ -92,7 +91,7 @@ const defaultOptions = {
     data: [1,2,3]
   }]
 };
-class HighChartComponent extends Component {
+class SparkLine extends Component {
   componentDidMount() {
     var title = {
       text: "Monthly Average Temperature"
@@ -161,16 +160,21 @@ class HighChartComponent extends Component {
     // Highcharts.chart("container", this.state.json);
     // $("#container").chart(this.state.json);
     const options = Highcharts.merge(defaultOptions, json)
-    Highcharts.chart("container", options);
+    Highcharts.chart(this.container, options);
   }
 
-  render() {
+  componentWillUnmount () {
+    this.chart.destroy()
+  }
+
+  render () {
     return (
-      <div id="container">
-        <h1>Hello there</h1>
-      </div>
-    );
+        <td 
+          ref={container => this.container = container}
+        >
+        </td>
+    )
   }
 }
 
-export default HighChartComponent;
+export default SparkLine;
