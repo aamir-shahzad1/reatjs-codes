@@ -1,2 +1,5 @@
 create basic app with reactjs and bootstrap pages
 https://github.com/techomoro/ReactMultiPageWebsite
+
+some fzol chezain
+https://medium.com/better-programming/4-ways-of-adding-external-js-files-in-reactjs-823f85de3668
